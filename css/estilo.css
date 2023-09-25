@@ -1,0 +1,83 @@
+:root {
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+    --color-cafe: #c88d70; 
+    --color-cafe-miel: #e09868; 
+    --color-verde-claro: #eddbc7; 
+    --color-piel: #f8c7ac; 
+    --color-verde-olivo: #b9a685; 
+    --color-verde-olivo-oscuro: #708a81; 
+    --color-cafe-oscuro: #2b2129; 
+    --color-gris-claro: #f0e8e3; 
+  
+    --cafe: #5c2c0c; 
+    --cafe-medio: #a97555; 
+    --cafe-oscuro: #3c3a1e; 
+    --cafe-claro: #aa6231; 
+    --miel: #dda35d; 
+    --beige: #e3deca; 
+    --verde: #606c38; 
+    --verde-oscuro: #283618; 
+}
+
+
+#TEXTOS 
+.texto-cafe {
+    color: var(--cafe) !important; 
+}
+.texto-cafe-medio {
+    color: var(--cafe-medio) !important; 
+}
+.texto-cafe-oscuro {
+    color: var(--cafe-oscuro) !important; 
+}
+.texto-cafe-claro {
+    color: var(--cafe-claro) !important; 
+}
+.texto-miel {
+    color: var(--miel) !important; 
+}
+.texto-beige {
+    color: var(--beige) !important; 
+}
+.texto-verde {
+    color: var(--verde) !important; 
+}
+.texto-verde-oscuro {
+    color: var(--verde-oscuro) !important; 
+}
+
+
+#FONDOS
+.fondo-cafe {
+    background-color: var(--cafe) !important; 
+}
+.fondo-cafe-medio {
+    color: var(--cafe-medio) !important; 
+}
+.fondo-cafe-oscuro {
+    background-color: var(--cafe-oscuro) !important; 
+}
+.fondo-cafe-claro {
+    background-color: var(--cafe-claro) !important; 
+}
+.fondo-miel {
+    background-color: var(--miel) !important; 
+}
+.fondo-beige {
+    background-color: var(--beige) !important; 
+}
+.fondo-verde {
+    background-color: var(--verde) !important; 
+}
+.fondo-verde-oscuro {
+    background-color: var(--verde-oscuro) !important; 
+}
+
+
+.img-portfolio {
+    max-width: 100%;
+    height: 300px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Esto asegura que la imagen se adapte al contenedor sin distorsión */
+}
+
